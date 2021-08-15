@@ -3,6 +3,8 @@ from tkinter import ttk, messagebox
 import pyautogui
 import time
 
+#pyautogui.FAILSAFE = False
+
 window=Tk()
 window.geometry("125x125")
 window.title('Window')
@@ -32,11 +34,6 @@ def fist():
     messagebox.showinfo("Fist Pos", f"{pyautogui.position()}")
 
 def start():
-    global block
-    global fist
-    global pos1
-    global pos2
-
     if block == None:
         messagebox.showinfo("Error", f"Block not set")
     elif fist == None:

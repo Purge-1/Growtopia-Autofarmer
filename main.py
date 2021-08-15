@@ -3,11 +3,13 @@ from tkinter import ttk, messagebox
 import pyautogui
 import time
 
+
 #pyautogui.FAILSAFE = False
+
 
 window=Tk()
 window.geometry("125x125")
-window.title('Window')
+window.title('Growtopia Auto Farmer')
 
 def pos1():
     global pos1

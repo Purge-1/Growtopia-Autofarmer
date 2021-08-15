@@ -12,8 +12,8 @@ Run the main.py file, once you run the file you should be able to see a GUI with
 What are the buttons for? 
 POS 1 -> Used to set the first block position (where the first block is going to be placed)
 POS 2 -> Used to set the second block position (where the second block is going to be placed)
-Block Pos -> Used to locate the block in your inventory
-Fist Pos -> Used to locate the fist in your inventory
+Block Pos -> Used to locate the block in your inventory.
+Fist Pos -> Used to locate the fist in your inventory.
 
 To set the first block position, click the button labeled "POS 1" and hover over wherever you'd like to set the position to. 
 To set the second block position, click the button labeled "POS 2" and hover over wherever you'd like to set the position to.
